@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.7.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.7.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8">
+    <tool name="Text Tool">
+      <a name="font" val="SansSerif plain 12"/>
+    </tool>
+  </lib>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="LS7400_PORTA_NAND"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Menu Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool">
+      <a name="font" val="SansSerif plain 12"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="LS7400_PORTA_NAND">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7400_PORTA_NAND"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(110,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(110,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(310,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(230,140)" name="NAND Gate"/>
+    <comp lib="8" loc="(114,84)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="74LS00"/>
+    </comp>
+    <comp lib="8" loc="(143,74)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="NAND"/>
+    </comp>
+    <wire from="(110,120)" to="(170,120)"/>
+    <wire from="(110,160)" to="(170,160)"/>
+    <wire from="(230,140)" to="(310,140)"/>
+  </circuit>
+  <circuit name="LS7402_PORTA_NOR">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7402_PORTA_NOR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(230,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(70,170)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(80,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(180,150)" name="NOR Gate"/>
+    <comp lib="8" loc="(87,78)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS7402 NOR"/>
+    </comp>
+    <wire from="(180,150)" to="(190,150)"/>
+    <wire from="(190,140)" to="(190,150)"/>
+    <wire from="(190,140)" to="(200,140)"/>
+    <wire from="(200,140)" to="(200,150)"/>
+    <wire from="(200,150)" to="(230,150)"/>
+    <wire from="(70,170)" to="(120,170)"/>
+    <wire from="(80,130)" to="(120,130)"/>
+  </circuit>
+  <circuit name="LS7404_PORTA_NOT">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7404_PORTA_NOT"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(180,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(70,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(140,120)" name="NOT Gate"/>
+    <comp lib="8" loc="(82,71)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS7404 NOT"/>
+    </comp>
+    <wire from="(140,120)" to="(180,120)"/>
+    <wire from="(70,120)" to="(110,120)"/>
+  </circuit>
+  <circuit name="LS7408_PORTA_AND">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7408_PORTA_AND"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(210,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(50,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(70,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(170,120)" name="AND Gate"/>
+    <comp lib="8" loc="(101,52)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS7408 AND"/>
+    </comp>
+    <wire from="(170,120)" to="(210,120)"/>
+    <wire from="(50,140)" to="(120,140)"/>
+    <wire from="(70,100)" to="(120,100)"/>
+  </circuit>
+  <circuit name="LS7432_PORTA_OR">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7432_PORTA_OR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(100,80)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(240,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(90,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(190,100)" name="OR Gate"/>
+    <comp lib="8" loc="(143,43)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS7432 OR"/>
+    </comp>
+    <wire from="(100,80)" to="(140,80)"/>
+    <wire from="(190,100)" to="(240,100)"/>
+    <wire from="(90,120)" to="(140,120)"/>
+  </circuit>
+  <circuit name="LS7486_PORTA_OR">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS7486_PORTA_OR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(100,80)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(240,100)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(90,120)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(190,100)" name="OR Gate"/>
+    <comp lib="8" loc="(143,43)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS7486 OR"/>
+    </comp>
+    <wire from="(100,80)" to="(140,80)"/>
+    <wire from="(190,100)" to="(240,100)"/>
+    <wire from="(90,120)" to="(140,120)"/>
+  </circuit>
+  <circuit name="LS74266_PORTA_NOR">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="LS74266_PORTA_NOR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(230,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(70,110)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(70,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(170,130)" name="NOR Gate"/>
+    <comp lib="8" loc="(94,62)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="LS74266 NOR "/>
+    </comp>
+    <wire from="(170,130)" to="(230,130)"/>
+    <wire from="(70,110)" to="(110,110)"/>
+    <wire from="(70,150)" to="(110,150)"/>
+  </circuit>
+</project>
