@@ -1,4 +1,4 @@
-# 7º Trabalho de Laboratório - Circuito multiplicador de números inteiros de 8 bits~
+# 7º Trabalho de Laboratório - Circuito multiplicador de números inteiros de 8 bits
 
 A multiplicação de números binários utilizando o algoritmo “Shift-and-add” é executado de forma
 semelhante ao da multiplicação “em papel” como se ilustra na figura 1 para números de 4 bits. 
