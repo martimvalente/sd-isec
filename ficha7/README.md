@@ -7,7 +7,7 @@ O algoritmo proposto efetua a acumulação (soma) do multiplicando tantas vezes 
 multiplicador em número de bits. Cada soma do multiplicando é efetuada deslocando-o para a esquerda
 depois de multiplicado pelo bit relativo ao produto parcial que é acumulado.
 
-![imagem](/ficha7/f71.PNG)
+![imagem](/ficha7/f71.png)
 
 A implementação do circuito multiplicador faz-se com recurso a dois registos de deslocamento (shift-register) um para o multiplicando e outro para o multiplicador. Será ainda necessário usar um circuito somador acumulador, bem como um circuito de controlo representado por uma máquina de estados.
 
