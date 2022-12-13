@@ -11,4 +11,4 @@ habitualmente utilizadas nos sistemas que usamos. O objetivo do trabalho é o de
 sistemas propostos em Logisim e em FPGA usando as placas Basys 2 da Digilent. 
 
 ## Gerador de Sequência
-![gerador de sequencia](gerador.png)
+![gerador de sequencia](/ficha5/gerador.PNG)
